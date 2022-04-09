@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">RECIPE PAGE</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://maggi-recipe-devc.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://maggi-recipe-devc.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -37,23 +37,26 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/USKhokhar/reipe-page-DevChallenges/blob/main/screenshot.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+In this challenge I had to make a recipe page, either of provided dish or any of my choice. I choose to make a recipe page for maggi.
+In doing so, it helped me brush up my CSS3 concepts. Following are the concepts that I used in this project-
+- Grid
+- Flex
+- Inline-Flex
+- Box-shadow
+- Material Icons
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
-
+- HTML5
+- CSS3
+- Google Material Icons
+- 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
@@ -89,6 +92,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
+- Website [your-website.com])
 - GitHub [@your-username](https://{github.com/your-usermame})
 - Twitter [@your-twitter](https://{twitter.com/your-username})
