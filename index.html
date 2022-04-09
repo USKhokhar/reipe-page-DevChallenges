@@ -1,95 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Maggi Recipe</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header id="header">
+    <h1>Veg-Maggi Recipe</h1>
+    <p id="sub-header">Make the delicious, veg maggi in few simple steps with fewer steps! (Under 10 minutes!!)</p>
+  </header>
 
-    <link rel="icon" href="devchallenges.png" />
+  <!-- BANNER-ING -->
+  <div id="banner-img">
+    <img src="/maggi.jpg" alt="Banner_Image">
+  </div>
+  
+  <!-- INFO -->
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
+  <div id="info">
+    <div class="sub-info">
+      <span class="material-icons orange">
+        restaurant_menu
+        </span>
+      <p class="info-type">yields</p>
+      <p class="info-given">2 servings</p>
+    </div>
+    <div id="time">
+      <div class="sub-info">
+        <span class="material-icons clock">schedule</span>
+        <p class="info-type">prep time</p>
+        <p class="info-given">2 minutes</p>
+      </div>
+      <div class="sub-info">
+        <span class="material-icons clock">schedule</span>
+        <p class="info-type">cook time</p>
+        <p class="info-given">8 minutes</p>
+      </div>
+      <div class="sub-info">
+        <span class="material-icons clock">schedule</span>
+        <p class="info-type">total time</p>
+        <p class="info-given">10 minutes</p>
+      </div>
+    </div>
+  </div>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
 
-    <title>Devchallenges</title>
+  <!-- CONTENT -->
+  
+  <section id="main-page">
+    
+    <h3>Ingredients: </h3>
+    <div id="ingredients">
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
+      <div class="ing-item">
+        <input type="checkbox" name="ing-1" id="ing-1">
+        <label for="ing-1" class="ing-name">1 Maggi Packet (70g).</label>
+      </div>
+      <div class="ing-item">
+        <input type="checkbox" name="ing-2" id="ing-2">
+        <label for="ing-2" class="ing-name">2 cups water.</label>
+      </div>
+    </div>
 
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    <h3>Instructions: </h3>
+    <div id="steps">
+      <div class="step-list">
+        <span class="material-icons numbers orange">looks_one</span>
+        <p class="step-no">In A Pan Take 1.5 Cups Of Water And Let It Boil.</p>
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      <div class="step-list">
+        <span class="material-icons numbers orange">looks_two</span>
+        <p class="step-no">Once Boiled Add A Maggi Block And Let It Cook For 3-4 Minutes.</p>
+      </div>
+
+      <div class="step-list">
+        <span class="material-icons numbers orange">looks_3</span>
+        <p class="step-no">Add Maggi Masala And Let It Cook For A Minute.</p>
+      </div>
+
+      <div class="step-list">
+        <span class="material-icons numbers orange">looks_4</span>
+        <p class="step-no">Now Take half cup of Water And Add Extra Maggi Masala.</p>
+      </div>
+
+      <div class="step-list">
+        <span class="material-icons numbers orange">looks_5</span>
+        <p class="step-no">Prepare This Water Solution And Add It To The Maggi. And Let You Maggi Cook For 1 Minutea And Soak All The Masala Water.</p>
+      </div>
+
+      <div class="step-list">
+        <span class="material-icons numbers orange">looks_6</span>
+        <p class="step-no">Your Classic Masala Maggi Is Ready To Eat.</p>
+      </div>
+
+    <!-- FOOTER -->
+    <footer>created by U.S.Khokhar - devChallenges.io</footer>
+
     </div>
-  </body>
+  </section>
+</body>
 </html>
